@@ -12,6 +12,11 @@ public class Main {
 		a1.setEspecie ("gato");
 		a1.setIdade (1);
 		
+		Animal a2 = new Animal();
+		
+		a2.setNome("Spike");
+		a2.setEspecie("cachorro");
+		a2.setIdade(6);
 		
 		System.out.println("Nome do animal é " + a1.getNome());
 	
