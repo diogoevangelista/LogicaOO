@@ -10,6 +10,9 @@ public class Main {
 		
 		
 		Animal a2 = new Animal("Rex", "cachorro", 2);
+		
+		Animal a3 = new Animal(null);
+		a3.setNome ("bicho");
 	
 		
 		System.out.println("Nome do animal é " + a1.getNome());
@@ -27,6 +30,8 @@ public class Main {
 		}
 	}
 	
-	
+		
 	
 }
+	
+
