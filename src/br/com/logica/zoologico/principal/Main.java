@@ -17,9 +17,16 @@ public class Main {
 		a2.setNome("Spike");
 		a2.setEspecie("cachorro");
 		a2.setIdade(6);
+		a2.emitirSom();
 		
 		System.out.println("Nome do animal é " + a1.getNome());
 	
+		
+		if(a2.isAdulto()) {
+			System.out.println("É adulto");
+		}else {
+			System.out.println("Não é aduto");
+		}
 	}
 	
 	
