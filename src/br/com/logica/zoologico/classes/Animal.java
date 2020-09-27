@@ -43,7 +43,7 @@ public class Animal {
 		System.out.println("som do animal");
 	}
 	public boolean isAdulto() {
-		return idade>= 1;
+		return idade> 1;
 	}
 	
 	

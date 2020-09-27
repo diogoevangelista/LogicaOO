@@ -16,11 +16,17 @@ public class Main {
 		System.out.println("Nome do animal é " + a2.getNome());
 		
 		if(a2.isAdulto()) {
-			System.out.println("É adulto");
+			System.out.println("o cachorro é adulto");
 		}else {
-			System.out.println("Não é aduto");
+			System.out.println("o cachorro não é aduto");
+		}
+		if(a1.isAdulto()) {
+			System.out.println("o gato é adulto");
+		}else {
+			System.out.println("o gato não é aduto");
 		}
 	}
+	
 	
 	
 }
