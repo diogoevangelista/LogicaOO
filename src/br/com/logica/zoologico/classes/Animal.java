@@ -15,7 +15,7 @@ public class Animal {
 		this.nome = nome;
 		this.especie = especie;
 		this.idade = idade;
-		
+	
 	}
 	
 	public void setNome(String nome) {
@@ -45,6 +45,7 @@ public class Animal {
 	public boolean isAdulto() {
 		return idade> 1;
 	}
+	
 	
 	
 	

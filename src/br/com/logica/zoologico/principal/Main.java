@@ -11,7 +11,7 @@ public class Main {
 		
 		Animal a2 = new Animal("Rex", "cachorro", 2);
 		
-		Animal a3 = new Animal(null);
+		Animal a3 = new Animal("branco", "asd", 2);
 		a3.setNome ("bicho");
 	
 		
