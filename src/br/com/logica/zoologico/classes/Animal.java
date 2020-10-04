@@ -7,15 +7,19 @@ public abstract class Animal {
 	// Atributos ou propriedades do objeto.
 	// Neste momento as propriedades são publicas.
 	
+	private String corPelo;
 	private String nome;
 	private String especie;
 	private int idade;
 	
-	public Animal(String nome, String especie, int idade) {
+	
+	
+	public Animal(String nome, String especie, int idade, String corPelo, String emitirSom) {
 		this.nome = nome;
 		this.especie = especie;
 		this.idade = idade;
-	
+		this.setCorPelo(corPelo);
+		this.emitirSom();
 	}
 	
 	public void setNome(String nome) {
@@ -39,12 +43,26 @@ public abstract class Animal {
 	public int getIndade() {
 		return idade;
 	}
-	public void emitirSom() {
-		System.out.println("som do animal");
-	}
+	public abstract void emitirSom();
+	
 	public boolean isAdulto() {
 		return idade> 1;
 	}
+	public void SetCorPelo(String corPelo) {
+		this.setCorPelo(corPelo);
+	}
+
+	public String getCorPelo() {
+		return corPelo;
+	}
+
+	public void setCorPelo(String corPelo) {
+		this.corPelo = corPelo;
+	}
+
+		
+	
+	
 	
 	
 	
