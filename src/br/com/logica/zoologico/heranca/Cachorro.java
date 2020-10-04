@@ -28,6 +28,13 @@ public class Cachorro extends Animal {
 		System.out.println("Latindo");
 		
 	}
+	public boolean isAdulto() {
+		if(isEstaVivo()) {
+			return idade > = 2;
+		}else {
+			return false;
+		}
+	}
 
 	
 
