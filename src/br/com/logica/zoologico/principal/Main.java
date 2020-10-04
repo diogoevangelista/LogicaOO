@@ -8,15 +8,15 @@ public class Main {
 		//Criando uma nova instacia do objeto.
 		
 		
-		Cachorro a2 = new Cachorro ("Rex", "cachorro", 2, "banco");
+		Cachorro Cachorro = new Cachorro ("Rex", "cachorro", 7, "banco");
 		
 		
-		System.out.println("Nome do animal é " + a2.getNome());
+		System.out.println("Nome do animal é " + Cachorro.getNome());
 		
-		if(a2.isAdulto()) {
+		if(Cachorro.isAdulto()) {
 			System.out.println("o cachorro é adulto");
 		}else {
-			System.out.println("o cachorro não é aduto");
+			System.out.println("o cachorro não é aduto, ou esta morto");
 		
 	}
 		
