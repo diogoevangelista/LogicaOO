@@ -64,7 +64,13 @@ public abstract class Animal {
 	public void setCorPelo(String corPelo) {
 		this.corPelo = corPelo;
 	}
-
+	//quando adicionado o final no metodo
+	//é impossivel faer sobrescita de metodos pelas
+	//classes filhas
+	public final void morrer() {
+		this.estaVivo = false;
+		
+	}
 
 		
 	
