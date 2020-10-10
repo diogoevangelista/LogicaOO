@@ -27,7 +27,7 @@ class GatoDesafio extends AnimalDesafio {
 
     @Override
     public String getEspecie() {
-        return  getNome() + " é um Gato";
+        return  getNome() + " Senhor dos aneis";
     }
 }
 

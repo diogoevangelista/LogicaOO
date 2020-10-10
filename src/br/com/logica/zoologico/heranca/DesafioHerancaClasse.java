@@ -2,8 +2,6 @@ package br.com.logica.zoologico.heranca;
 
 import java.util.Scanner;
 
-import javafx.scene.shape.LineTo;
-
 public class DesafioHerancaClasse {
 
 		abstract class Titulo {
@@ -15,20 +13,18 @@ public class DesafioHerancaClasse {
 		 public String getTitulo() {
 		        return Titulo;
 		}
-		 
+		}
 		 class MeuLivro extends Titulo{
 			 
-			 private String titulo;
+			 private String Titulo;
 
 			public void setTitulo(String s) {
-				 this.titulo = s;
+				 this.Titulo = s;
 				 
 			 }
 		 }
 		
-		public class DesafioHerancaClasseAbstrata{
-			
-		}
+}
 			
 		
 		

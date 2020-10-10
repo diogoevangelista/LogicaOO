@@ -19,7 +19,6 @@ public abstract class Animal {
 		this.especie = especie;
 		this.idade = idade;
 		this.setCorPelo(corPelo);
-		this.emitirSom();
 		this.estaVivo = true;
 	}
 	
@@ -43,16 +42,8 @@ public abstract class Animal {
 	}
 	public int getIndade() {
 		return idade;
-	}
-	public abstract void emitirSom();
+	}	
 	
-	public boolean isAdulto() {
-		if (estaVivo) {
-			return idade >= 5;
-		}else{
-			return false;
-		}
-	}
 	public void SetCorPelo(String corPelo) {
 		this.setCorPelo(corPelo);
 	}
@@ -67,10 +58,7 @@ public abstract class Animal {
 	//quando adicionado o final no metodo
 	//é impossivel faer sobrescita de metodos pelas
 	//classes filhas
-	public final void morrer() {
-		this.estaVivo = false;
-		
-	}
+	
 
 		
 	
