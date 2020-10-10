@@ -19,3 +19,13 @@ DML - DATA MANIPULATION LINGUAGE - LINGUAGEM DE MANIPULAÇÃO DE DADOS
 CREATE	---- INSERT	---- INSERIR
 READ	---- SELECT	---- CONSULTAR
 UPDATE	---- DELETE	---- EXCLUIR
+
+-- inserindo registros da tabela
+use zoo;
+
+INSERT INTO animal(especie, idade, estavivo)values("Cachorro", 5, 1);
+INSERT INTO animal(especie, idade, estavivo)values("CAVALO", 10, 1);
+INSERT INTO animal(especie, idade, estavivo)values("GATO", 3, 1);
+
+
+SELECT especie, idade, estavivo FROM ANIMAL;
