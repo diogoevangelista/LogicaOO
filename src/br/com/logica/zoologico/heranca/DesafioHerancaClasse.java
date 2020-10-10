@@ -2,37 +2,45 @@ package br.com.logica.zoologico.heranca;
 
 import java.util.Scanner;
 
+import javafx.scene.shape.LineTo;
+
 public class DesafioHerancaClasse {
 
-	
-	public abstract class MeuLivro {
+		abstract class Titulo {
 		
-		public String MeuLivro;
+		protected String Titulo;
 		
-		public void setMeuLivro(String MeuLivro) {
-			this.MeuLivro = MeuLivro;
+		public abstract void setTitulo(String s);
 			
-		}
-		
-		 public String getMeuLivro() {
-		        return MeuLivro;
+		 public String getTitulo() {
+		        return Titulo;
 		}
 		 
-		
-		 class MeuLivro2 extends MeuLivro {
+		 class MeuLivro extends Titulo{
 			 
-		 public void main(String[] args) {
-			 Scanner scann = new Scanner(System.in);
-			 
-			 
-			 
+			 private String titulo;
+
+			public void setTitulo(String s) {
+				 this.titulo = s;
+				 
+			 }
 		 }
+		
+		public class DesafioHerancaClasseAbstrata{
+			
+		}
+			
+		
+		
+		
+			 
+		 
 			 
 			
-		 }
+		 
 			 
 			 
-		 }
+		 
 	
 	
 	
@@ -43,4 +51,4 @@ public class DesafioHerancaClasse {
 	
 	
 	
-}
+
