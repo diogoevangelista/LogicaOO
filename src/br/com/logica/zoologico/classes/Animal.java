@@ -1,5 +1,6 @@
 package br.com.logica.zoologico.classes;
-	
+
+import br.com.logica.zoologico.interfaces.IAnimal;
 
 	// Construindo o objeto animal.
 public abstract class Animal implements IAnimal {
