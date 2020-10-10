@@ -10,7 +10,7 @@ public abstract class Animal {
 	private String corPelo;
 	private String nome;
 	private String especie;
-	private int idade;
+	protected int idade;
 	protected boolean estaVivo;
 	
 	
@@ -49,7 +49,7 @@ public abstract class Animal {
 	public boolean isAdulto() {
 		if (estaVivo) {
 			return idade >= 5;
-		}else {
+		}else{
 			return false;
 		}
 	}
