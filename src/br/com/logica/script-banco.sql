@@ -29,3 +29,17 @@ INSERT INTO animal(especie, idade, estavivo)values("GATO", 3, 1);
 
 
 SELECT especie, idade, estavivo FROM ANIMAL;
+
+-- select all
+use zoo;
+
+INSERT INTO animal(especie, idade, estavivo)values("Cachorro", 5, 1);
+INSERT INTO animal(especie, idade, estavivo)values("CAVALO", 10, 1);
+INSERT INTO animal(especie, idade, estavivo)values("GATO", 3, 1);
+
+
+SELECT * FROM ANIMAL;
+
+-- alterando valor da coluna
+UPDATE animal SET nome = 'jojo todinho'
+UPDATE animal SET nome = 'toto' where codigo = 1

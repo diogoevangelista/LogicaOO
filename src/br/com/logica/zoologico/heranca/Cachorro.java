@@ -28,6 +28,16 @@ public class Cachorro extends Animal {
 		System.out.println("Latindo");
 		
 	}
+	@Override
+	public boolean isAdulto() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public void morrer() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 
